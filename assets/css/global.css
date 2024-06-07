@@ -1,0 +1,25 @@
+/* Container*/
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+/* Lists */
+li {
+    list-style-type: none;
+}
+
+/* Button */
+.sub-btn {
+    background-color: #e8491d;
+    border: 0;
+    height: 38px;
+    padding: 0 20px;    
+}
+/* Background */
+.dark {
+    padding: 1rem;
+    background-color: #35424a;
+    color: #fff;
+    margin: 10px 0;
+}

@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #35424a;
+    color: #f4f4f4f4;
+    padding: 2rem;
+    min-height: 70px;
+    border-bottom: 5px solid #e8491d;
+}
+
+header .container #branding {
+    float: left;
+}
+
+header .container #branding span {
+    color: #e8491d;
+}
+
+header .container nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .container nav ul li {
+    display: inline;
+    float: left;
+    padding: 0 20px;
+}
+
+header .container .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .container a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    text-align: center;
+    text-justify: center;
+    background-color: #333;
+    color: #ffffff;
+}
+
+#showcase .container h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+
+#showcase .container p {
+    font-size: 20px;
+}
+/* Newsletter */
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+}
+
+#newsletter .container h1 {
+    float: left;
+}
+
+#newsletter .container form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter .email-form input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 15px;
+}
+
+#boxes .box {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+/* Main Col*/
+#main-col {
+    float: left;
+    width: 65%;
+}
+
+/* Side Bar */
+#side-bar {
+    width: 30%;
+    margin-top: 10px;
+    float: right;
+}
+
+aside#side-bar .quote input, aside#side-bar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+/* Services */
+ul#services li {
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+
+/* Footer */
+footer {
+    background-color: #e8491d;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    margin-top: 10px;
+}   
+
+/* Responsive */
+
+@media(max-width:768px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: none;
+    }
+    /* Header */
+    header {
+        margin: 0;
+    }
+
+    header .container {
+        margin: 0 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container #branding {
+        margin: 0 100px;
+    }
+    /* Show Case */
+    #showcase .container h1{
+        margin-top: 40px;
+    }
+
+    /* newsletter */
+    #newsletter .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 25%;
+        width: 100%;
+    }
+    form button {
+        margin: 0;
+    }
+
+    #main-col , #side-bar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
